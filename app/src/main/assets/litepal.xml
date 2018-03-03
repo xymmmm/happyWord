@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<litepal>
+    <dbname value="happy_word"/>
+    <version value="1"/>
+    <list>
+        <mapping class="com.happyword.android.db.Word_Four"/>
+        <mapping class="com.happyword.android.db.Word_Six"/>
+    </list>
+</litepal>
