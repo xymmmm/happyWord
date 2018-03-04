@@ -1,11 +1,21 @@
 package com.happyword.android.db;
+import org.litepal.crud.DataSupport;
 
-public class Word_Four extends DataSupport {
+public class Word extends DataSupport {   //四级词库
 
     private int id;
+    private String level;
     private String word;
     private String interpret;
     private int learned;
+
+    public String getLevel() {
+        return level;
+    }
+
+    public void setLevel(String level) {
+        this.level = level;
+    }
 
     public int getId() {
         return id;
